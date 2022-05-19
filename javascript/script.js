@@ -1,3 +1,5 @@
+//Important Tokens are replaced with $$ for safety reasons.
+
 var typed = new Typed(".typing",{
     strings:["Web Designer", "Web Developer", "Front-End Developer", "Back-End Developer", "Database Developer", "Full-Stack Developer"],
     typeSpeed:80,
