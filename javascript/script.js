@@ -5,7 +5,7 @@ var typed = new Typed(".typing",{
     loop:true
 })
 
-emailjs.init("R1T9lKaIxEwTthIgg");
+emailjs.init("$$");
 
 const btn = document.getElementById('button');
 
@@ -15,8 +15,8 @@ document.getElementById('form')
 
         btn.value = 'Sending...';
 
-        const serviceID = 'smtp.nefdtco.co.za';
-        const templateID = 'template_f4doggt';
+        const serviceID = '$$';
+        const templateID = '$$';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
